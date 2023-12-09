@@ -1,5 +1,5 @@
 import React from 'react'
-
+import avtar from "../Component/Image/sumit_image_passport.jpg"
 const Hero = () => {
   return (
     <>
@@ -11,6 +11,7 @@ const Hero = () => {
           Walking on water and developing software from a specification are easy
           if both are frozen
         </p>
+        <img src={avtar} alt="" />
       </div>
     </>
   )
